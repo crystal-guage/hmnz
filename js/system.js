@@ -12,10 +12,10 @@ window.onload = function () {
 
 function initSynth() {
     synth = new Tone.Sampler({
-        "E2": "https://dl.dropbox.com/s/xoyrmfpifgzz8qs/e2.mp3?dl=0",
-        "E3": "https://dl.dropbox.com/s/ypo7x2erg932u5c/e3.mp3?dl=0",
-        "E4": "https://dl.dropbox.com/s/i6pyt1q1x380hk5/e4.mp3?dl=0",
-        "E5": "https://dl.dropbox.com/s/y5iix9qabxxr3it/e5.mp3?dl=0",
+        "E2": "http://dl.dropbox.com/s/xoyrmfpifgzz8qs/e2.mp3?dl=0",
+        "E3": "http://dl.dropbox.com/s/ypo7x2erg932u5c/e3.mp3?dl=0",
+        "E4": "http://dl.dropbox.com/s/i6pyt1q1x380hk5/e4.mp3?dl=0",
+        "E5": "http://dl.dropbox.com/s/y5iix9qabxxr3it/e5.mp3?dl=0",
     }).toMaster();
     // シンセサイザーを生成
     // synth = new Tone.PolySynth({
