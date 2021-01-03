@@ -186,10 +186,10 @@ function getDataCode(sf, digSub, symbol) {
 }
 
 function playSynth(obj, str) {
-    obj.style.backgroundColor = '#ff0';
-    setTimeout(() => {
-    obj.style.backgroundColor = '';
-    }, 200);
+    // obj.style.backgroundColor = '#ff0';
+    // setTimeout(() => {
+    // obj.style.backgroundColor = '';
+    // }, 200);
 
     const values = str.split(',');
     const root = getSelectedKeyIndex();
