@@ -145,7 +145,7 @@ function buildColLines(header, dataList) {
         if (paramStr != null) {
             const params = paramStr.split('&');
             html = `
-                <td onmousedown="playSynth(this, '${params[2]}')">
+                <td onclick="playSynth(this, '${params[2]}')">
                     <span>${params[0]}</span>
                     <span></span>
                     <div class="param">${params[1]}</span>
